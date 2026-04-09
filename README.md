@@ -1,16 +1,99 @@
-# React + Vite
+# 🎯 Assembly Endgame (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React-based project built using **Vite**, designed to deliver a fun and engaging endgame-style experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚛️ Tech Stack
 
-## React Compiler
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+* ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎮 Interactive user interface
+* ⚡ Fast performance with Vite
+* 🔁 Hot Module Replacement (HMR)
+* 📱 Responsive design
+* 🧹 Clean and maintainable code
+
+---
+
+## 📦 Setup & Run Locally
+
+### Install dependencies
+
+```bash id="a1b2c3"
+npm install
+```
+
+### Start development server
+
+```bash id="d4e5f6"
+npm run dev
+```
+
+Open in browser:
+
+```id="g7h8i9"
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash id="j1k2l3"
+npm run build
+```
+
+---
+
+## 🔍 Preview Production Build
+
+```bash id="m4n5o6"
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```id="p7q8r9"
+assembly-endgame-react/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── package.json
+```
+
+---
+
+## 🧠 About the Project
+
+This project showcases React fundamentals like components, state management, and dynamic rendering, built with a fast and modern development setup using Vite.
+
+---
+
+## 🛠️ Future Improvements
+
+* Add more game features
+* Improve UI/UX
+* Add animations
+* Deploy the app online
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
